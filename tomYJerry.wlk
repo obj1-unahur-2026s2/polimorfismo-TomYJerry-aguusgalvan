@@ -13,13 +13,13 @@ method correr (metros) {
 
 method velocidadMaxima () = 5 +(self.energia() / 10)
 
-method cazar(metros , unRaton) =  if (self.puedeCazar (metros))
+//method cazar(metros , unRaton) =  if (self.puedeCazar (metros))
 }
 
 object jerry {
     var edad = 2 
  method peso () = edad * 20 
- method cumplirAnios ( edad + edad + 1 )
+ //method cumplirAnios ( edad + edad + 1 )
 
  
 }
