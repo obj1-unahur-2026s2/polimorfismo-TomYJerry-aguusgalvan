@@ -13,7 +13,9 @@ method correr (metros) {
 
 method velocidadMaxima () = 5 +(self.energia() / 10)
 
-//method cazar(metros , unRaton) =  if (self.puedeCazar (metros))
+method cazar(metros , unRaton) =  if (self.puedeCazar(metros)) self.comer(unRaton)
+
+method puedeCazar(metros) = self.energia () > (metros *2)
 }
 
 object jerry {
